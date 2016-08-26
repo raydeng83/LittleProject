@@ -1,3 +1,14 @@
+h1 {
+  font-size: 5.9vw;
+}
+h2 {
+  font-size: 3.0vh;
+}
+p {
+  font-size: 2vmin;
+}
+
+
 body {
 	/*background-image: url("../image/1.jpg");*/
 	font-family:  serif;
@@ -15,7 +26,7 @@ body {
 
 #main-text {
 	margin: 0 20 0 20;
-	font-size: 50px;
+	/*font-size: 50px;*/
 	dispaly:inline;
 
 }
@@ -28,7 +39,7 @@ body {
 	border-color: transparent transparent transparent #0099ff;*/
 	dispaly:inline;
 	cursor: pointer;
-	font-size:50px;
+	/*font-size:50px;*/
 }
 
 #left-arrow{
@@ -39,7 +50,8 @@ body {
 	border-color: transparent #0099ff transparent transparent;*/
 	display:inline;
 	cursor: pointer;
-	font-size:50px;
+
+	/*font-size:50px;*/
 }
 
 

@@ -10,6 +10,8 @@ $(document).ready(function() {
 			setTimeout(function() {
      			$('#main-text').removeClass('animated fadeInRightBig');
  			}, 1000);
+
+ 			$('body').css('background-image', 'url(image/'+backgroundImageUrl[i]+')');
 			
 		}
 	});
@@ -23,6 +25,9 @@ $(document).ready(function() {
 			setTimeout(function() {
      			$('#main-text').removeClass('animated fadeInLeftBig');
  			}, 1000);
+
+ 			$('body').css('background-image', 'url(image/'+backgroundImageUrl[i]+')');
+ 			
 		}
 	})
 });
@@ -33,4 +38,12 @@ var messages = [
 "This isThis is message two message three",
 "This is meThis is message twoThis is message twoThis is message twoThis is message twoThis is message twoThis is message twossage four",
 "This is message This is message twoThis is message twoThis is message twofive"
+]
+
+var backgroundImageUrl = [
+	"1.jpg",
+	"1.jpg",
+	"2.jpg",
+	"2.jpg",
+	"1.jpg"
 ]
