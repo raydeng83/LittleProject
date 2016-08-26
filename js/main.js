@@ -15,32 +15,44 @@ $(document).ready(function() {
 
 	$('#right-arrow').click(function(){
 		if (i<messages.length-1) {
-			$('#main-text').text(messages[++i]);
-			$('#main-text').addClass('animated fadeInRightBig');
+			var animated = getAnimation();
+
+			i++
+			// $('body').css('background-image', 'url(image/'+backgroundImageUrl[i]+')');
+
+			$('#main-image').attr('src','image/main/'+(i+1)+'.jpg');
+			$('#main-image').addClass('animated '+animated);
+
+			$('#main-text').text(messages[i]);
+			$('#main-text').addClass('animated '+animated);
 
 			setTimeout(function() {
-				$('#main-text').removeClass('animated fadeInRightBig');
+				$('#main-text').removeClass('animated '+animated);
+				$('#main-image').removeClass('animated '+animated);
+
 			}, 1000);
 
-			$('body').css('background-image', 'url(image/'+backgroundImageUrl[i]+')');
-
 			// audiot.play();
-			
 		}
 	});
 
 	$('#left-arrow').click(function(){
 
 		if (i>0){
-			$('#main-text').text(messages[--i]);
+			var animated = getAnimation();
 
-			$('#main-text').addClass('animated fadeInLeftBig');
+			i--
+			// $('body').css('background-image', 'url(image/'+backgroundImage[i]+')');
+			$('#main-image').attr('src','image/main/'+(i+1)+'.jpg');
+			$('#main-image').addClass('animated '+animated);
+
+			$('#main-text').text(messages[i]);
+			$('#main-text').addClass('animated '+animated);
 
 			setTimeout(function() {
-				$('#main-text').removeClass('animated fadeInLeftBig');
+				$('#main-text').removeClass('animated '+animated);
+				$('#main-image').removeClass('animated '+animated);
 			}, 1000);
-
-			$('body').css('background-image', 'url(image/'+backgroundImageUrl[i]+')');
 
 		}
 	})
@@ -48,16 +60,30 @@ $(document).ready(function() {
 
 var messages = [
 "This is a story between a woman and a man...",
-"This isThis is message twoThis is message two message two",
-"This isThis is message two message three",
+"You may think of Prince and Princess...",
+"Or Beauty and Beast...",
 "This is meThis is message twoThis is message twoThis is message twoThis is message twoThis is message twoThis is message twossage four",
 "This is message This is message twoThis is message twoThis is message twofive"
-]
+];
 
-var backgroundImageUrl = [
+var backgroundImage = [
 "",
-"1.jpg",
-"2.jpg",
+"",
+"",
 "",
 ""
-]
+];
+
+var mainImage = [
+"1.jpg",
+"2.jpg",
+"3.jpg"
+];
+
+var getAnimation = function () {
+	var animationTypes = ['fadeIn', 'fadeInDown', 'rotateIn', 'rotateInUpLeft', 'lightSpeedIn', 'flipInX', 'bounceIn'];
+
+	return animationTypes[Math.floor(Math.random() * (animationTypes.length))];
+}
+
+
