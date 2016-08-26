@@ -1,7 +1,8 @@
 var i=0;
 
 $(document).ready(function() {
-	console.log("ready!");
+	var audiot = new Audio("sound/1.mp3");
+
 	$('#right-arrow').click(function(){
 		if (i<messages.length-1) {
 			$('#main-text').text(messages[++i]);
@@ -12,6 +13,8 @@ $(document).ready(function() {
  			}, 1000);
 
  			$('body').css('background-image', 'url(image/'+backgroundImageUrl[i]+')');
+
+    		audiot.play();
 			
 		}
 	});
@@ -27,7 +30,7 @@ $(document).ready(function() {
  			}, 1000);
 
  			$('body').css('background-image', 'url(image/'+backgroundImageUrl[i]+')');
- 			
+
 		}
 	})
 });
