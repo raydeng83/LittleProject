@@ -62,8 +62,9 @@ var messages = [
 "This is a story between a woman and a man...",
 "You may think of Prince and Princess...",
 "Or Beauty and Beast...",
-"This is meThis is message twoThis is message twoThis is message twoThis is message twoThis is message twoThis is message twossage four",
-"This is message This is message twoThis is message twoThis is message twofive"
+"But the actual story might be different...",
+"It all starts with an online dating website...",
+"A weird guy was trying to ask her out by bragging... and it worked..."
 ];
 
 var backgroundImage = [
@@ -72,12 +73,6 @@ var backgroundImage = [
 "",
 "",
 ""
-];
-
-var mainImage = [
-"1.jpg",
-"2.jpg",
-"3.jpg"
 ];
 
 var getAnimation = function () {
