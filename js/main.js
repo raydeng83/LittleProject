@@ -59,9 +59,9 @@ $(document).ready(function() {
 });
 
 var messages = [
+"First, turn on the music by clicking the symbol on top-left... and then proceed",
 "This is a story about a girl...",
 "And a cat...",
-"And some other cats.",
 "On August 30th, 1984, a baby was born to this world...",
 "in a city from the far mystery east...",
 "and it turned out she is a girl.",
@@ -84,7 +84,16 @@ var messages = [
 "such as car racing...",
 "or, maybe motorbiking...",
 "and most importantly, she had a new companion....",
-"The wonderful cutie --- Yuki ~~"
+"The wonderful cutie --- Yuki ~~",
+"They had so much fun together...",
+"They became so close to each other...",
+"They are now a family...",
+"Sometimes she could be like this",
+"but it's OK and that's the way life is...",
+"The story has come here so far...",
+"and it continues...",
+"Happy Birthday, my princess... Wish you be happy and beautiful, as always...",
+"~ The End ~"
 ];
 
 var backgroundImage = [
