@@ -105,7 +105,7 @@ var backgroundImage = [
 ];
 
 var getAnimation = function () {
-	var animationTypes = ['fadeIn', 'fadeInDown', 'rotateIn', 'rotateInUpLeft', 'lightSpeedIn', 'flipInX', 'bounceIn'];
+	var animationTypes = ['fadeIn', 'fadeInDown', 'rotateIn', 'rotateInUpLeft', 'lightSpeedIn', 'flipInX', 'bounceIn','slideInDown','zoomInDown','tada', 'flipInY'];
 
 	return animationTypes[Math.floor(Math.random() * (animationTypes.length))];
 }
