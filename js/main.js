@@ -74,7 +74,17 @@ var messages = [
 "She travelled to a city (town) at south and spent her five years there...",
 "There were stories happening during that time...",
 "By the time she graduated, she made an important decision.",
-"She decided to come to USA!"
+"She decided to come to USA!!!",
+"So she packed herself, walked cross continents, sailed through oceans...",
+"and then she arrived at Boston...",
+"where she continued to pursue her medical career in Psychoanalysis.",
+"It was challenging. She came her by herself; English is not her first language; school system in USA is different; and many more... ",
+"but she didn't give up and she worked hard...",
+"while she also had fun with different activities...",
+"such as car racing...",
+"or, maybe motorbiking...",
+"and most importantly, she had a new companion....",
+"The wonderful cutie --- Yuki ~~"
 ];
 
 var backgroundImage = [
