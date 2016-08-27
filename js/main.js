@@ -59,12 +59,22 @@ $(document).ready(function() {
 });
 
 var messages = [
-"This is a story between a woman and a man...",
-"You may think of Prince and Princess...",
-"Or Beauty and Beast...",
-"But the actual story might be different...",
-"It all starts with an online dating website...",
-"A weird guy was trying to ask her out by bragging... and it worked..."
+"This is a story about a girl...",
+"And a cat...",
+"And some other cats.",
+"On August 30th, 1984, a baby was born to this world...",
+"in a city from the far mystery east...",
+"and it turned out she is a girl.",
+"Then she was raised up in a happy family.",
+"where she went to school like other kids...",
+"and play like other kids",
+"She is such a princess that everybody loves her so much.",
+"Around the age of 18, she passed college entrance exam with excellent performance...",
+"and started her college life majored in Medicine Science.",
+"She travelled to a city (town) at south and spent her five years there...",
+"There were stories happening during that time...",
+"By the time she graduated, she made an important decision.",
+"She decided to come to USA!"
 ];
 
 var backgroundImage = [
